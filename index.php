@@ -63,7 +63,7 @@ usort($posts, function ($a, $b) {
         }
 
         .post {
-            margin-bottom: 3rem;
+            margin: 0 1rem 3rem 1rem;
         }
 
         .date {

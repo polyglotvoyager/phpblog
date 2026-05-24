@@ -56,6 +56,11 @@ $content = file_get_contents($path);
         code {
             font-family: monospace;
         }
+
+    #content {
+      margin: 1rem;
+    }
+
     </style>
 </head>
 <body>
