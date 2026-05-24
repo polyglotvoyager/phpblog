@@ -81,8 +81,6 @@ usort($posts, function ($a, $b) {
 
   <h1>Posts</h1>
 
-  <h3><a href="admin.php">Admin</a></h3>
-
 <?php foreach ($posts as $post): ?>
 
     <div class="post">
