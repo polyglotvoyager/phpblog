@@ -105,7 +105,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         type="text"
         name="slug"
         placeholder="Slug"
-        required
+      required
+      autofocus
     >
 
     <br><br>
