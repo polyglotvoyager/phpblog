@@ -49,7 +49,6 @@ usort($posts, function ($a, $b) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Posts</title>
-
     <style>
 
     h1, h2, h3 {
@@ -80,6 +79,8 @@ usort($posts, function ($a, $b) {
 <body>
 
   <h1>Posts</h1>
+
+  <h3><a href="new.php">New</a></h3>
 
 <?php foreach ($posts as $post): ?>
 
