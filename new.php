@@ -126,10 +126,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <script>
   // load token
-  document.getElementById("notetokenid").value = window.localStorage.getItem("phpblognotestoken");
+  document.getElementById("notetokenid").value = window.localStorage.getItem("phpblogeditortoken");
 
   function savetoken() {
-  window.localStorage.setItem("phpblognotestoken", document.getElementById("notetokenid").value);
+  window.localStorage.setItem("phpblogeditortoken", document.getElementById("notetokenid").value);
   }
 </script>
 </body>
